@@ -11,6 +11,84 @@ html,body{
   background: #121212 !important;
   scroll-behavior: smooth;
 }
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+ }
+ 
+ .cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #03e9f4;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+ }
+ 
+ .cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+ }
+ 
+ .cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+ }
+ 
+ .cta:hover:before {
+  width: 100%;
+  background: #03e9f4;
+ }
+ 
+ .cta:hover svg {
+  transform: translateX(0);
+ }
+ 
+ .cta:active {
+  transform: scale(0.95);
+ }
+.botao {
+  padding: 22px 28px;
+  border-radius: 6px;
+  color: #03e9f4;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  background: none;
+  border: 1px solid #03e9f4;
+}
+
+.botao:hover {
+  background: #03e9f4;
+  color: #050801;
+  text-decoration: none;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 20px #03e9f4,
+              0 0 20px #03e9f4,
+              0 0 20px #03e9f4;
+}
 .card{
   border: 0px;
   border-top: none;
@@ -31,7 +109,7 @@ html,body{
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 .foto {
-  border: 5px solid #0EB0B6;
+  border: 5px solid #03e9f4;
   border-radius: 50%;
 }
 .icons{
