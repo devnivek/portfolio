@@ -254,3 +254,7 @@ body{
 .f-right {
   float: right;
 }
+
+@media only screen and (max-width: 980px){
+  #menu, #myCarousel { display: none;  }
+}
