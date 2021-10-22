@@ -67,28 +67,6 @@ html,body{
  .cta:active {
   transform: scale(0.95);
  }
-.botao {
-  padding: 22px 28px;
-  border-radius: 6px;
-  color: #03e9f4;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.5s;
-  letter-spacing: 3px;
-  background: none;
-  border: 1px solid #03e9f4;
-}
-
-.botao:hover {
-  background: #03e9f4;
-  color: #050801;
-  text-decoration: none;
-  box-shadow: 0 0 5px #03e9f4,
-              0 0 20px #03e9f4,
-              0 0 20px #03e9f4,
-              0 0 20px #03e9f4;
-}
 .cardo{
   border: 0px;
   border-top: none;
@@ -274,5 +252,5 @@ body{
 }
 
 @media only screen and (max-width: 980px){
-  #menu, #myCarousel { display: none;  }
+  #img { display: none;  }
 }
