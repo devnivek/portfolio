@@ -185,7 +185,9 @@ html,body{
   border-image: linear-gradient(227.91deg,#0035aa 0%, #d70071 100%) 1 !important;
   border-image: linear-gradient(227.91deg,#106AF2 0%, #00E0FF 100%) 1;
 }
-
+.bg-black{
+  background-color: #121212 !important;
+}
 .bg-kell{
   background: linear-gradient(to bottom left, #0035aa, #d70071) !important;
 }
