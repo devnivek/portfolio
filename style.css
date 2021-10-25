@@ -149,22 +149,22 @@ html,body{
 }
 .icons a:nth-child(2) .layer span,
 .icons a:nth-child(2) .text{
-  color: #E1306C;
-  border-color: #E1306C;
+  color: white;
+  border-color: white;
 }
 .icons a:nth-child(3) .layer span,
 .icons a:nth-child(3) .text{
-  color: white;
-  border-color: white;
+  color: #E1306C;
+  border-color: #E1306C;
 }
 .icons a:hover:nth-child(1) .layer span{
   box-shadow: -1px 1px 3px #2867B2;
 }
 .icons a:hover:nth-child(2) .layer span{
-  box-shadow: -1px 1px 3px #E1306C;
+  box-shadow: -1px 1px 3px white;
 }
 .icons a:hover:nth-child(3) .layer span{
-  box-shadow: -1px 1px 3px white;
+  box-shadow: -1px 1px 3px E1306C;
 }
 .icons a .text{
   position: absolute;
